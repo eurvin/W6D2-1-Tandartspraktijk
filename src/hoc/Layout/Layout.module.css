@@ -1,0 +1,26 @@
+.Layout {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.Layout nav {
+	left: 0;
+	top: 0;
+	background-color: #282c34;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.Layout nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.Layout nav li {
+	margin: 25px;
+}
